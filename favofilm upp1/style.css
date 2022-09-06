@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    color: rgb(91, 39, 39);
+    background-color: rgb(187, 94, 94);
+    font-size: 1.2rem;
+
+    padding: 10px;
+    border: 1px solid black;
+}
+
+body {
+
+    background: rgb(151, 113, 151);
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 1.7rem;
+
+    background: yellow;
+}
+
+img {
+    width: 100%;
+    border: 1px solid black;
+    /* Detta markerar kanterna på bilden till exempel*/
+}
+
+div {
+    background-color: rgb(178, 75, 75);
+    max-width: 950px;
+    /* max breden på hela elmenten dvs hela div blir i lika rad */
+    width: 90%;
+    /* Denna ser till att när man går ut från fullskärm så ser den till att man kan se texten*/
+    margin: 100px auto;
+    /* Detta centrera själva elementen på en sida */
+}
